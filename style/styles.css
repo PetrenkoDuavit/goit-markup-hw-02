@@ -1,0 +1,156 @@
+:root {
+  --main-ligth-color: #fff;
+  --main-font-color: #757575;
+  --secondory-font-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-accent-color: #000000; /*???*/
+
+  --border-br-color: #2f303a;
+  --section-team-bg-color: #f5f4fa;
+}
+
+header {
+  padding: 32px 215px;
+}
+
+body {
+  background-color: var(--main-ligth-color);
+  color: var(--main-font-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+
+.menu {
+  list-style: none; /* удаление точек ссылок */
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menu-link {
+  font-family: var(--primali-font);
+  color: var(--secondory-font-color);
+  font-weight: 500;
+  font-size: var(--text-size);
+  text-decoration: none; /* подчеркивание */
+}
+.logo {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.menu-link:hover {
+  color: var(
+    --accent-color
+  ); /*выделение интерактивных элементов при наведении */
+}
+
+body {
+  font-family: var(--primali-font);
+}
+
+.hero-span {
+  display: block;
+}
+
+.hero-text {
+  font-family: "Roboto", sans-serif;
+  color: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 400;
+  width: 548px;
+  margin: 0;
+}
+
+.btn-title {
+  border-radius: 4px; /* скругление углов*/
+  background-color: var(--border-br-color);
+  padding: 200px 0px 210px;
+}
+
+.button-div {
+  background-color: var(--main-ligth-color);
+  color: var(--secondory-font-color);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 32px; /* задание размера кнопки*/
+  border-radius: 4px; /* скругление углов*/
+  margin: auto;
+  cursor: pointer;
+}
+
+.button-div:hover {
+  background-color: var(--accent-color);
+  color: var(--main-ligth-color); /*изменение кнопки во время наведения*/
+}
+
+.conteiner {
+  width: 696px;
+  margin: 0px auto;
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--main-ligth-color);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  padding: 10px 32px; /* задание размера кнопки*/
+  border-radius: 4px; /* скругление углов*/
+  margin: auto;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--main-ligth-color);
+  font-size: 44px;
+  font-weight: 900;
+  width: 528px;
+  text-transform: uppercase;
+}
+
+.advantage {
+  font-family: "Roboto", sans-serif;
+  color: var(--secondory-font-color);
+  /* position: absolute; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantage-par {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-font-color);
+  width: 270px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.w-doing {
+  font-family: var(--primali-font);
+  color: var(--secondory-font-color);
+  font-size: 42px;
+}
+.w-doing2 {
+  font-family: var(--primali-font);
+  color: var(--main-font-color);
+  font-size: 16px;
+}
+.advantage2 {
+  font-family: "Roboto", sans-serif;
+  color: var(--secondory-font-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
