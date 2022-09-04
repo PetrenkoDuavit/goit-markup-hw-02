@@ -21,7 +21,13 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+.logo-web {
+    color: var(--accent-color);
+}
 
+.logo-studio {
+    color: var(--secondory-font-color);
+}
 
 .menu {
   list-style: none; /* удаление точек ссылок */
