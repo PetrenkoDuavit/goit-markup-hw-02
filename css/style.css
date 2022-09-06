@@ -43,6 +43,9 @@ body {
 .logo-studio {
   color: var(--secondory-font-color);
 }
+.logo-studio-footer {
+  color: var(--main-ligth-color);
+}
 /* Навигация по сайту в шапке + контакты*/
 .nav-page:hover,
 .nav-page:focus {
