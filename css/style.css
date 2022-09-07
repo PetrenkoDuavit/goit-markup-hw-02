@@ -10,7 +10,11 @@
 
 body {
   font-family: 'roboto', 'sans-serif';
-  background-color: var(--section-team-bg-color);
+  background-color: var(--main-font-color
+  
+  
+  
+  );
   color: var(--secondory-font-color);
   letter-spacing: 0.03em;
 }
@@ -137,20 +141,33 @@ body {
   line-height: 19px;
   color: var(--main-font-color);
 }
-/* Footer color */
+/* ----------Footer------------ */
 .footer {
   background-color: var(--border-br-color);
 }
-.nav-page-footer:hover,
-.nav-page-footer:focus {
-  color: var(--main-ligth-color);
+.footer-address:hover,
+.footer-address:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus
+{
+  color: var(--accent-color);
 }
 
-.nav-page-footer {
+.footer-tel {
+  color: var(--main-ligth-color);
+}
+.footer-mail,
+.footer-address {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
+}
+.footer-address,
+.footer-mail,
+.footer-tel {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  font-style: normal;
 }
 /* Портфолио кнопки */
 .filter-btn:hover,
