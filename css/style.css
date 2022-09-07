@@ -10,11 +10,7 @@
 
 body {
   font-family: 'roboto', 'sans-serif';
-  background-color: var(--main-font-color
-  
-  
-  
-  );
+  /*background-color: var(--main-font-color);*/
   color: var(--secondory-font-color);
   letter-spacing: 0.03em;
 }
@@ -38,7 +34,7 @@ body {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: calc(26 / 31);
 }
 .logo-web {
   color: var(--accent-color);
@@ -59,7 +55,7 @@ body {
   color: var(--secondory-font-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .current {
@@ -73,7 +69,7 @@ body {
   color: var(--main-font-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 /* Секция Hero */
@@ -98,23 +94,25 @@ body {
   color: var(--main-ligth-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
 /*Секция Наші особливості */
-.advantage-section {
-  background: var(--section-team-bg-color);
-}
 .advantage-list-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase; /*1*/
+}
+.advantage-par {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .hero-list-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0, 03em;
   color: var(--main-font-color); /* Серый вторичный текст на сайте */
 }
@@ -125,11 +123,14 @@ body {
 .our-team-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
 }
 /* Секция Наша команда */
 
+.our-team-col {
+  background: #f5f4fa;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -138,7 +139,7 @@ body {
 .team-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   color: var(--main-font-color);
 }
 /* ----------Footer------------ */
@@ -150,8 +151,7 @@ body {
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-tel:hover,
-.footer-tel:focus
-{
+.footer-tel:focus {
   color: var(--accent-color);
 }
 
