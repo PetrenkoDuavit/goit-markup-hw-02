@@ -156,11 +156,11 @@ body {
   color: var(--accent-color);
 }
 
-.footer-tel {
+.footer-address {
   color: var(--main-ligth-color);
 }
 .footer-mail,
-.footer-address {
+.footer-tel {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-address,
