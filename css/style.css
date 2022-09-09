@@ -9,8 +9,7 @@
 }
 
 body {
-  font-family: "roboto", "sans-serif";
-  /*background-color: var(--main-font-color);*/
+  font-family: 'roboto', 'sans-serif';
   color: var(--secondory-font-color);
   letter-spacing: 0.03em;
 }
@@ -31,10 +30,10 @@ body {
 }
 /*Логотип*/
 .logo {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .logo-web {
   color: var(--accent-color);
@@ -80,7 +79,7 @@ body {
   color: var(--main-ligth-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -90,7 +89,7 @@ body {
   background: var(--accent-color);
 }
 .hero-btn-text {
-  font-family: "roboto";
+  font-family: 'roboto';
   color: var(--main-ligth-color);
   font-weight: 700;
   font-size: 16px;
@@ -135,7 +134,7 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 18.75px;
+  line-height: 1.17;
 }
 .team-position {
   /* font-weight: 400; */
